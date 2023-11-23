@@ -5,6 +5,8 @@ https://pusher.com/tutorials/publish-laravel-packagist/#flesh-out-our-package
 
 ## Usage
 
+The following routes are added automatically: `/login`, `/logout`
+
 ## Changelog
 
 Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
