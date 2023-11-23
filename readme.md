@@ -12,3 +12,4 @@ Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recen
 ## Credits
 
 - [Miguel Angel Moya Perona](https://banzee.net)
+- [Naranjatec](https://naranjatec.com)

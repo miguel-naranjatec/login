@@ -1,11 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Naranjatec\Login\Http\Controllers\LoginController;
 
-Route::get('login', function () {
-    return 'TODO: display view';
+Route::middleware(['guest'])->group(function () {
+    Route::get('/login', [LoginController::class, 'index'])->name('login');
+    Route::post('/login', [LoginController::class, 'login']);
 });
-
-Route::get('logout', function () {
-    return 'TODO: logout';
-});
+Route::get('/logout', [LoginController::class, 'logout'])->middleware(['auth'])->name('logout');
