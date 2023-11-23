@@ -1,0 +1,31 @@
+{
+    "name": "naranjatec/login",
+    "description": "Description",
+    "license": "proprietary",
+    "keywords": [
+        "login",
+        "register"
+    ],
+    "extra": {
+        "laravel": {
+            "dont-discover": []
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Naranjatec\\Login\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Miguel Angel Moya Perona",
+            "email": "miguelangel@naranjatec.com",
+            "homepage": "http://banzee.net",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.0"
+    }
+}
