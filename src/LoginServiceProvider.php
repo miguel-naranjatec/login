@@ -1,5 +1,4 @@
 <?php
-// MyVendor\contactform\src\ContactFormServiceProvider.php
 namespace Naranjatec\Login;
 
 use Illuminate\Support\ServiceProvider;
